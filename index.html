@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Time Capsule</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle, #ffefd5, #ffdab9);
+      color: #333;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #8b0000;
+      color: white;
+      padding: 20px 0;
+      font-size: 1.8rem;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    .content h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #b22222;
+    }
+
+    .time-capsule {
+      margin: 30px auto;
+      padding: 20px;
+      max-width: 600px;
+      background: #fefbd8;
+      border: 2px dashed #b22222;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .time-capsule p {
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .time-capsule textarea {
+      width: 100%;
+      height: 100px;
+      margin: 15px 0;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid #b22222;
+      resize: none;
+    }
+
+    .time-capsule button {
+      background: #b22222;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .time-capsule button:hover {
+      background: #8b0000;
+    }
+
+    footer {
+      background: #8b0000;
+      color: white;
+      padding: 20px;
+      font-size: 0.9rem;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .ornament {
+      position: absolute;
+      animation: swing 4s ease-in-out infinite;
+    }
+
+    .ornament:nth-child(1) {
+      top: 10%;
+      left: 15%;
+    }
+
+    .ornament:nth-child(2) {
+      top: 15%;
+      left: 70%;
+    }
+
+    @keyframes swing {
+
+      0%,
+      100% {
+        transform: rotate(-10deg);
+      }
+
+      50% {
+        transform: rotate(10deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Christmas Time Capsule
+  </header>
+  <div class="content">
+    <h2>Leave a Memory for Future Christmases!</h2>
+    <div class="time-capsule">
+      <p>
+        Write a message, wish, or memory you'd like to revisit in the future. Imagine opening this time capsule on a magical Christmas Day years from now!
+      </p>
+      <form>
+        <textarea placeholder="Write your memory here..."></textarea>
+        <button type="submit">Save Memory</button>
+      </form>
+    </div>
+
+    <div>
+      <img src="https://th.bing.com/th/id/R.fd6286131a04c128fbcbcaa0875696fb?rik=zd5NvrUTaBwvTQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fchristmas-present-transparent%2fchristmas-present-transparent-22.png&ehk=kpuaRBs5z7qj8%2b2RNcUc3eQWNTT4ldhIGPefBBVHAw8%3d&risl=&pid=ImgRaw&r=0" alt="Christmas Gift" style="width: 150px; margin: 20px;">
+      <img src="https://th.bing.com/th/id/R.ed18aec56420cde660ae4431d3e7f50c?rik=hRSUfqrjbNA5ZA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fsanta_claus%2fsanta_claus_PNG38476.png&ehk=heJ39qaf1ibDZJ6eqS%2fiZNvJEmVHVRR3oGlBS53q7P4%3d&risl=&pid=ImgRaw&r=0" alt="Santa Claus" style="width: 150px; margin: 20px;">
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      Created with holiday spirit.
+    </p>
+  </footer>
+
+  <div class="ornament">🎄</div>
+  <div class="ornament">🎅</div>
+
+</body>
+
+</html>
